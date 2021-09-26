@@ -1,7 +1,7 @@
 # SuperSquiggles
 The repository of the SuperSquiggle Project for [cennznet grant](https://gitcoin.co/issue/cennznet/grants/9/100026471)  
-You can generate your SuperSquiggle [here](https://preview.p5js.org/tedybeir/present/TZF8xmTcw)
-
+🔥 <span style="color:red" style="">You can generate your SuperSquiggle </span> ➡ [here](https://preview.p5js.org/tedybeir/present/TZF8xmTcw) ⬅  🔥  
+![squigglegif](https://github.com/tedybeir/SuperSquiggles/blob/main/squiggle.gif) 
 # Technical Overview
 
 But how the SuperSquiggle are generated ?  
@@ -26,13 +26,19 @@ Noise function to color and ball movement (random but previsible) :
 Random function to color and ball movement (entierly random , imprevisible and ugly) :  
 ![randomgif](https://github.com/tedybeir/SuperSquiggles/blob/main/randomgif.gif)  
 
-But you have 1% of luck to have a squiggle with entirely random color  
+(But you have 10% of luck to have a squiggle with entirely random color)  
 
 The yseed is put also in a noise function for randomize the behavior of the y axis (if the curve go down or up)  
 
 The interval is used to increment x each loop (the function is call inside a draw() so its loop indefinetly)  
 It create squiggle with different ecart between each new circle  
 More the interval is high more the curve will be clean and generated fast  
+
+Curve with low interval :  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/lowinterval.png" alt="stroke" width="500"/>   
+
+Curve with high interval :  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/highinterval.png" alt="stroke" width="500"/>  
 
 The draw function loop indefinetly so for stop the curve we put a little condition :  
 
@@ -42,7 +48,7 @@ The draw function loop indefinetly so for stop the curve we put a little conditi
   } else {
     x += interval;
   } 
-```
+```  
 The SuperSquiggle have also special traits :  
 
 * __numbersquigprob__ The probability of squiggle generated / 70% for 1 , 20% for 2 and only 10% for 3   
