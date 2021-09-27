@@ -1,6 +1,6 @@
 # SuperSquiggles
 Repository of the SuperSquiggle Project for [cennznet grant](https://gitcoin.co/issue/cennznet/grants/9/100026471)  
-SuperSquiggle is a ANIMATED GenerativeArt project who have endless squiggle possibility  
+SuperSquiggle is an ANIMATED GenerativeArt project who have endless squiggle possibility  
 🔥 <span style="color:red">You can generate your SuperSquiggle </span> ➡ [HERE](https://preview.p5js.org/tedybeir/present/TZF8xmTcw) ⬅  🔥  
 (*refresh the page for generate another*)  
 ![squigglegif](https://github.com/tedybeir/SuperSquiggles/blob/main/squigglediscover.gif) 
