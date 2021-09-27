@@ -1,6 +1,6 @@
 # SuperSquiggles
 Repository of the SuperSquiggle Project for [cennznet grant](https://gitcoin.co/issue/cennznet/grants/9/100026471)  
-SuperSquiggle is a GenerativeArt project who have endless squiggle possibility  
+SuperSquiggle is a ANIMATED GenerativeArt project who have endless squiggle possibility  
 🔥 <span style="color:red">You can generate your SuperSquiggle </span> ➡ [HERE](https://preview.p5js.org/tedybeir/present/TZF8xmTcw) ⬅  🔥  
 (*refresh the page for generate another*)  
 ![squigglegif](https://github.com/tedybeir/SuperSquiggles/blob/main/squigglediscover.gif) 
@@ -81,6 +81,8 @@ So for stop the curve we put a little condition who check if the curve isnt afte
   } 
 ```  
 For the situation of mint like ArtBlock we can use hash of transaction and slice it for create deterministic output  
+We can mint the SuperSquiggle like a gif or like a png  
+Are both with hidden storage feature on [OpenSea](https://opensea.io/) (Sell image and only the owner can see the gif)  
 You can contact me at __tedybeir@gmail.com__ if you have any questions or if you want to create an NFT with the SuperSquiggles  
 Remember you can generate your own SuperSquiggle [here](https://preview.p5js.org/tedybeir/present/TZF8xmTcw)  
 or here => https://preview.p5js.org/tedybeir/present/TZF8xmTcw  
