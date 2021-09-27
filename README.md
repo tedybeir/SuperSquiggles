@@ -86,7 +86,7 @@ For the situation of mint like [ArtBlock](https://artblocks.io/) we can use hash
 We can mint the SuperSquiggle like a gif or like a png  
 Are both with hidden storage feature on [OpenSea](https://opensea.io/) (Sell image and only the owner can see the gif)  
 You can contact me at __tedybeir@gmail.com__ if you have any questions or if you want to create an NFT with the SuperSquiggles  
-[HERE](https://github.com/tedybeir/SuperSquiggles/edit/main/examples) they are some SuperSquiggles i find beautifull  
+[HERE](https://github.com/tedybeir/SuperSquiggles/edit/main/examples) they are some random SuperSquiggles i have generated for show you the diversity and the beauty    
 But remember you can generate your own SuperSquiggle [here](https://preview.p5js.org/tedybeir/present/TZF8xmTcw)  
 or here => https://preview.p5js.org/tedybeir/present/TZF8xmTcw  
 
