@@ -1,14 +1,17 @@
 # SuperSquiggles
-The repository of the SuperSquiggle Project for [cennznet grant](https://gitcoin.co/issue/cennznet/grants/9/100026471)  
-🔥 <span style="color:red" style="">You can generate your SuperSquiggle </span> ➡ [here](https://preview.p5js.org/tedybeir/present/TZF8xmTcw) ⬅  🔥  
+Repository of the SuperSquiggle Project for [cennznet grant](https://gitcoin.co/issue/cennznet/grants/9/100026471)  
+SuperSquiggle is a GenerativeArt project who have endless squiggle possibility  
+🔥 <span style="color:red">You can generate your SuperSquiggle </span> ➡ [HERE](https://preview.p5js.org/tedybeir/present/TZF8xmTcw) ⬅  🔥  
+(*refresh the page for generate another*)  
 ![squigglegif](https://github.com/tedybeir/SuperSquiggles/blob/main/squiggle.gif) 
+
 # Technical Overview
 
 But how the SuperSquiggle are generated ?  
-For this we use the [P5js](https://p5js.org/) library  
+We use the [P5js](https://p5js.org/) library  
 P5js is processing library for javascript who permit to create shape and more with javascript code  
 
-Each squiggle is in fact a following of many circle who have different colors , high and interval  
+Each squiggle is in fact just a following of many circle who have different colors , high and interval  
 The generation of one squiggle is made by a function who take 3 arguments :   
 
 1. __colorseed__ for generate different color
@@ -35,12 +38,12 @@ It create squiggle with different ecart between each new circle
 More the interval is high more the curve will be clean and generated fast  
 
 Curve with low interval :  
-<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/lowinterval.png" alt="stroke" width="500"/>   
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/lowinterval.png" alt="stroke" width="500"/>   
 
 Curve with high interval :  
-<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/highinterval.png" alt="stroke" width="500"/>  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/highinterval.png" alt="stroke" width="500"/>  
 
-The draw function loop indefinetly so for stop the curve we put a little condition :  
+The draw function loop indefinetly so for stop the curve we put a little condition who check if the curve isnt after the 9/10 of the screen :  
 
 ```javascript
  if (x > width/10*9) {
@@ -49,14 +52,29 @@ The draw function loop indefinetly so for stop the curve we put a little conditi
     x += interval;
   } 
 ```  
-The SuperSquiggle have also special traits :  
+The SuperSquiggle have also special traits who change all :  
 
-* __numbersquigprob__ The probability of squiggle generated / 70% for 1 , 20% for 2 and only 10% for 3   
-<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/several.png" alt="stroke" width="500"/>  
+* __numbersquigprob__ The probability of several squiggles generated / 70% for 1 , 20% for 2 and only 10% for 3   
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/several.png" alt="stroke" width="500"/>  
 
-* __colorflashprob__ The probability of squiggle using random function instead of noise / 10%  
-<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/flash.png" alt="stroke" width="500"/>  
+* __colorflashprob__ The probability of squiggle using random function instead of noise (create flashy curve) / 10%  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/flash.png" alt="stroke" width="500"/>  
 
-* __strokeprob__ The probability of black stroke / 5%  
-<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/stroke.png" alt="stroke" width="500"/>
+* __strokeprob__ The probability of black stroke / 10%  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/stroke.png" alt="stroke" width="500"/>
 
+* __palettecolor__ The probability of the palette of color choose / 5% for the dark red palette , 80% for the basic palette , 10% for the cloud palette and 5% for the kaki palette  
+
+The palette color is choose by the palettecolor variable , existing 4 differents colors palettes :  
+
+1. The BASIC palette  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/squiggle.png" alt="stroke" width="500"/>
+
+2. The DARKRED palette  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/darkredpalette.png" alt="stroke" width="500"/>
+
+3. The CLOUD palette  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/cloudpalette.png" alt="stroke" width="500"/>
+
+4. The Kaki palette  
+<img src="https://github.com/tedybeir/SuperSquiggles/blob/main/assets/kakipalette.png" alt="stroke" width="500"/>
