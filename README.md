@@ -12,6 +12,12 @@ We use the [P5js](https://p5js.org/) library
 P5js is processing library for javascript who permit to create shape and more with javascript code  
 
 Each squiggle is in fact just a following of many circle who have different colors , high and interval  
+
+```javascript
+ //create an ellipse who take x and y for location and a size of 100
+ ellipse(x, y, 100, 100)
+```  
+You will see below how the coordinates are generated etc ...  
 The generation of one squiggle is made by a function who take 3 arguments :   
 
 1. __colorseed__ for generate different color
@@ -80,14 +86,18 @@ So for stop the curve we put a little condition who check if the curve isnt afte
     x += interval; //moove the curve forward
   } 
 ```  
+
+The size of the canvas can also be change like you want , i have put many example of size of canvas in this [folder](https://github.com/tedybeir/SuperSquiggles/edit/main/examples)  
+  
+
 # NFT Creation  
 
 For the situation of mint like [ArtBlock](https://artblocks.io/) we can use hash of transaction and slice it for create deterministic output  
 We can mint the SuperSquiggle like a gif or like a png  
 Are both with hidden storage feature on [OpenSea](https://opensea.io/) (Sell image and only the owner can see the gif)  
 You can contact me at __tedybeir@gmail.com__ if you have any questions or if you want to create an NFT with the SuperSquiggles  
-[HERE](https://github.com/tedybeir/SuperSquiggles/edit/main/examples) they are some random SuperSquiggles i have generated for show you the diversity and the beauty    
-But remember you can generate your own SuperSquiggle [here](https://preview.p5js.org/tedybeir/present/TZF8xmTcw)  
+[HERE](https://github.com/tedybeir/SuperSquiggles/edit/main/examples) you can see some random SuperSquiggles i have generated for show you the diversity and the beauty    
+But remember , for create your opinion you can generate your own SuperSquiggle [here](https://preview.p5js.org/tedybeir/present/TZF8xmTcw)  
 or here => https://preview.p5js.org/tedybeir/present/TZF8xmTcw  
 
 ![squigglegif](https://github.com/tedybeir/SuperSquiggles/blob/main/squiggle.gif) 
