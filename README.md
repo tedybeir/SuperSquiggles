@@ -2,6 +2,7 @@
 Repository of the SuperSquiggle Project for [cennznet grant](https://gitcoin.co/issue/cennznet/grants/9/100026471)  
 SuperSquiggle is an ANIMATED GenerativeArt project who have endless squiggle possibility  
 🔥 <span style="color:red">You can generate your SuperSquiggle </span> ➡ [HERE](https://preview.p5js.org/tedybeir/present/TZF8xmTcw) ⬅  🔥  
+__If you want to save your SuperSquiggle , just click on the canvas and it will save it__   
 (*refresh the page for generate another*)  
 ![squigglegif](https://github.com/tedybeir/SuperSquiggles/blob/main/squigglediscover.gif) 
 
@@ -100,5 +101,6 @@ You can contact me at __tedybeir@gmail.com__ if you have any questions or if you
 [HERE](https://github.com/tedybeir/SuperSquiggles/edit/main/examples) you can see some random SuperSquiggles i have generated for show you the diversity and the beauty    
 But remember , for create your opinion you can generate your own SuperSquiggle [here](https://preview.p5js.org/tedybeir/present/TZF8xmTcw)  
 or here => https://preview.p5js.org/tedybeir/present/TZF8xmTcw  
+__If you want to save your SuperSquiggle , just click on the canvas and it will save it__  
 
 ![squigglegif](https://github.com/tedybeir/SuperSquiggles/blob/main/squiggle.gif) 
