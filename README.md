@@ -88,6 +88,7 @@ So for stop the curve we put a little condition who check if the curve isnt afte
 ```  
 
 The size of the canvas can also be change like you want , i have put many example of size of canvas in this [folder](https://github.com/tedybeir/SuperSquiggles/edit/main/examples)  
+(*Try to zoom and dezoom for find your favorite size (personnaly i love this canvas with zoom at 25%*)
 <img src="https://github.com/tedybeir/SuperSquiggles/blob/main/examples/showfolder.png" alt="showfolder" width="450"/>   
 
 # NFT Creation  
